@@ -56,6 +56,18 @@ header{
         cursor: pointer;
     }
 
+    header {
+        transition: background-color .3s, color .3s;
+    }
+
+    nav {
+        transition: background-color .5s, color .5s;
+    }
+
+    body {
+        transition: background-color .3s, color .3s;
+    }
+
     .dark-mode__boton {
         display: block;
     }
